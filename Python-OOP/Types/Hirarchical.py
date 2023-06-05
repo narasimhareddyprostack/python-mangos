@@ -1,19 +1,14 @@
 class Parent:
     def m1(self):
         print("Parent class -m1() method")
-
     def m2(self):
         print("Parent class -m2() method")
-
-
 class Child1(Parent):
     def m3(self):
         print("Child1 class -m3() method")
-
 class Child2(Parent):
     def m4(self):
         print("Child2 class -m4() method")
-
 
 obj1=Child1()
 obj1.m1()

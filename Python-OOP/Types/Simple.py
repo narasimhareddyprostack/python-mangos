@@ -10,7 +10,6 @@ class Child(Parent):
     def m3(self):
         print("Child class -m3() method")
 
-
 obj=Child()
 obj.m1()
 obj.m2()
