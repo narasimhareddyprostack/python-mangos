@@ -1,0 +1,20 @@
+1. import mysql connector
+2. establish connection object
+3. create cursor 
+4. execute sql queries
+5.commit/rollback 
+6.close the connection and cursor
+
+
+pip3 installl mysql 
+
+=======================
+show databases;
+use database_Name;
+
+show tables;
+create table empone(id int, name varchar(32), sal int)
+desc table;
+
+desc empOne;
+===========================
